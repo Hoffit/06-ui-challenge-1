@@ -13,17 +13,121 @@ span {
 
 #a {
     background-image: url("https://placehold.it/480x75/111");
+    width: 480px;
+    height: 75px;
+}
+
+#b {
+    background-image: url("https://placehold.it/480x150/666");
+    width: 480px;
+    height: 150px;
+}
+
+#c {
+    background-image: url("https://placehold.it/480x125/111");
+    width: 480px;
+    height: 125px;
+}
+
+#d {
+    background-image: url("https://placehold.it/480x125/666");
+    width: 480px;
+    height: 125px;
+}
+
+#e {
+    background-image: url("https://placehold.it/240x250/111");
+    width: 240px;
+    height: 250px;
+}
+
+#f {
+    background-image: url("https://placehold.it/240x250/666");
+    width: 240px;
+    height: 250px;
+}
+
+#g {
+    background-image: url("https://placehold.it/240x250/111");
+    width: 240px;
+    height: 250px;
+}
+
+#h {
+    background-image: url("https://placehold.it/240x250/666");
+    width: 240px;
+    height: 250px;
+}
+
+#i {
+    background-image: url("https://placehold.it/480x80/111");
+    width: 480px;
+    height: 80px;
 }
 
 @media only screen and (min-width: 768px) {
-    .top {
-        width: auto;
-    }
-    .left {
-        float: left;
-        width: 10%;
-    }
+    /*.top {*/
+        /*width: auto;*/
+    /*}*/
+    /*.left {*/
+        /*float: left;*/
+        /*width: 10%;*/
+    /*}*/
     .inline-for-desktop {
-        display: inline;
+        display: inline-block;
+    }
+
+    #a {
+        background-image: url("https://placehold.it/960x100/111");
+        width: 960px;
+        height: 100px;
+    }
+
+    #b {
+        background-image: url("https://placehold.it/200x600/666");
+        width: 200px;
+        height: 600px;
+    }
+
+    #c {
+        background-image: url("https://placehold.it/380x200/111");
+        width: 380px;
+        height: 200px;
+    }
+
+    #d {
+        background-image: url("https://placehold.it/380x200/666");
+        width: 380px;
+        height: 200px;
+    }
+
+    #e {
+        background-image: url("https://placehold.it/190x250/111");
+        width: 190px;
+        height: 250px;
+    }
+
+    #f {
+        background-image: url("https://placehold.it/190x250/111");
+        width: 190px;
+        height: 250px;
+    }
+
+    #g {
+        background-image: url("https://placehold.it/190x250/111");
+        width: 190px;
+        height: 250px;
+    }
+
+    #h {
+        background-image: url("https://placehold.it/190x250/111");
+        width: 190px;
+        height: 250px;
+    }
+
+    #i {
+        background-image: url("https://placehold.it/760x150/111");
+        width: 760px;
+        height: 150px;
     }
 }
